@@ -1,0 +1,11 @@
+import numpy as np
+arr1 = np.arange(1,11,1)
+# newarr1 = np.split(arr1, 3)
+# print(newarr1)
+# newarr2 = np.array_split(arr1,3)
+# print(newarr2)
+# newarr3 = np.hsplit(arr1,2)
+# print(newarr3)
+arr = np.arange(1,7,1).reshape(2,3)
+newarr4 = np.vsplit(arr,2)
+print(newarr4)
